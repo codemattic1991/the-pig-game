@@ -148,6 +148,7 @@ main {
     padding: 01rem !important;
     margin-top: 27rem !important;
     width: 50% !important;
+    font-size:5rem!important;
   }
 }
 
@@ -269,6 +270,7 @@ main {
 @media only screen and (max-width: 600px) {
   .dice {
     height: 10rem !important;
+    top: 18.5rem !important;
   }
 }
 
