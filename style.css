@@ -31,6 +31,13 @@ body {
 }
 
 /* LAYOUT */
+
+@media only screen and (max-width: 600px) {
+  .player {
+    height: 55rem;
+  }
+}
+
 main {
   position: relative;
   width: 100rem;
@@ -47,6 +54,12 @@ main {
 
 .hidden {
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .player {
+    padding: 01rem;
+  }
 }
 
 .player {
@@ -71,6 +84,12 @@ main {
   z-index: 20;
 }
 
+@media only screen and (max-width: 600px) {
+  .score {
+    padding-top: 8.5rem;
+  }
+}
+
 .score {
   font-size: 6rem;
   font-weight: 300;
@@ -83,6 +102,13 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
   z-index: 20;
+}
+
+@media only screen and (max-width: 600px) {
+  .pause,
+  .play {
+    background-size: 42%;
+  }
 }
 
 .pause {
@@ -111,6 +137,14 @@ main {
   opacity: 1;
 }
 
+@media only screen and (max-width: 600px) {
+  .current {
+    padding: 01rem;
+    margin-top: 27rem;
+    width: 50%;
+  }
+}
+
 .current {
   background-color: #008b8f;
   opacity: 0.8;
@@ -120,6 +154,12 @@ main {
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
+}
+
+@media only screen and (max-width: 600px) {
+  .current-label {
+    font-size: 1.2rem;
+  }
 }
 
 .current-label {
@@ -167,6 +207,30 @@ main {
   display: inline-block;
   margin-right: 0.7rem;
 } */
+
+@media only screen and (max-width: 600px) {
+  .btn--new {
+    top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn--roll {
+    top: 34rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn--top {
+    top: 43rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn--hold {
+    top: 40.5rem;
+  }
+}
 
 .btn--new {
   top: 4rem;
